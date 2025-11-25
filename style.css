@@ -57,14 +57,17 @@ header {
     color: white;
 }
 
-.botao {
-    display: inline-block;
-    background: white;
-    color: #444545;
-    padding: 12px 28px;
-    border-radius: 30px;
-    margin-top: 20px;
+button {
+    width: 100%;
+    padding: 12px;
+    background: #1e1e1e;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
 }
+
 /* ===== SOBRE ===== */
 .sobre {
     max-width: 900px;
@@ -139,7 +142,7 @@ footer {
     }
 }
 
-/*== FOOTER EMBAIXO ==*/
+/*==== FOOTER EMBAIXO ====*/
 html, body {
     height: 100%;
 }
@@ -151,4 +154,5 @@ body {
 
 main {
     flex: 1;
+
 }
